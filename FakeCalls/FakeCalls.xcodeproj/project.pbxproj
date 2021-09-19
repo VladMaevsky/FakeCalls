@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */; };
-		AFBD1B3026F74AA6007F68AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B2F26F74AA6007F68AB /* SceneDelegate.swift */; };
 		AFBD1B3226F74AA6007F68AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B3126F74AA6007F68AB /* ViewController.swift */; };
 		AFBD1B3526F74AA6007F68AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3326F74AA6007F68AB /* Main.storyboard */; };
 		AFBD1B3726F74AAA007F68AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3626F74AAA007F68AB /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		AFBD1B2A26F74AA6007F68AB /* FakeCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFBD1B2F26F74AA6007F68AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AFBD1B3126F74AA6007F68AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFBD1B3426F74AA6007F68AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFBD1B3626F74AAA007F68AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */,
-				AFBD1B2F26F74AA6007F68AB /* SceneDelegate.swift */,
 				AFBD1B3126F74AA6007F68AB /* ViewController.swift */,
 				AFBD1B3326F74AA6007F68AB /* Main.storyboard */,
 				AFBD1B3626F74AAA007F68AB /* Assets.xcassets */,
@@ -139,7 +136,6 @@
 			files = (
 				AFBD1B3226F74AA6007F68AB /* ViewController.swift in Sources */,
 				AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */,
-				AFBD1B3026F74AA6007F68AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
