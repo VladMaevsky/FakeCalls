@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3AC8CCF526F796BA0045DB67 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8CCF426F796BA0045DB67 /* SubscriptionManager.swift */; };
+		3AC8CCF726F7970D0045DB67 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8CCF626F7970D0045DB67 /* NotificationManager.swift */; };
 		46027F2C4A49B6B0F3796448 /* libPods-FakeCalls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957817588640AE302853A56 /* libPods-FakeCalls.a */; };
 		AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */; };
 		AFBD1B3226F74AA6007F68AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B3126F74AA6007F68AB /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3AC8CCF426F796BA0045DB67 /* SubscriptionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		3AC8CCF626F7970D0045DB67 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		5957817588640AE302853A56 /* libPods-FakeCalls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FakeCalls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5B845924D409E18CDBA6A4 /* Pods-FakeCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeCalls.debug.xcconfig"; path = "Target Support Files/Pods-FakeCalls/Pods-FakeCalls.debug.xcconfig"; sourceTree = "<group>"; };
 		AFBD1B2A26F74AA6007F68AB /* FakeCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				3AC8CCF426F796BA0045DB67 /* SubscriptionManager.swift */,
+				3AC8CCF626F7970D0045DB67 /* NotificationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				AFBD1B3226F74AA6007F68AB /* ViewController.swift in Sources */,
 				AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */,
+				3AC8CCF726F7970D0045DB67 /* NotificationManager.swift in Sources */,
 				3AC8CCF526F796BA0045DB67 /* SubscriptionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
