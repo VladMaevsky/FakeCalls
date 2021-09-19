@@ -16,8 +16,17 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logoLaunchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="nUq-PK-5wS">
+                                <rect key="frame" x="146" y="367.5" width="122" height="161"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nUq-PK-5wS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qlo-zx-fxR"/>
+                            <constraint firstItem="nUq-PK-5wS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oMr-JR-38i"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -26,6 +35,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ic_logoLaunchscreen" width="122" height="161"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
