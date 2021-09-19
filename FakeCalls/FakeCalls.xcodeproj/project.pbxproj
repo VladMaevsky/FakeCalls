@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46027F2C4A49B6B0F3796448 /* libPods-FakeCalls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957817588640AE302853A56 /* libPods-FakeCalls.a */; };
 		AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */; };
 		AFBD1B3226F74AA6007F68AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B3126F74AA6007F68AB /* ViewController.swift */; };
 		AFBD1B3526F74AA6007F68AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3326F74AA6007F68AB /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5957817588640AE302853A56 /* libPods-FakeCalls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FakeCalls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5B845924D409E18CDBA6A4 /* Pods-FakeCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeCalls.debug.xcconfig"; path = "Target Support Files/Pods-FakeCalls/Pods-FakeCalls.debug.xcconfig"; sourceTree = "<group>"; };
 		AFBD1B2A26F74AA6007F68AB /* FakeCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFBD1B3126F74AA6007F68AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		AFBD1B3626F74AAA007F68AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBD1B3926F74AAA007F68AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFBD1B3B26F74AAA007F68AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3834D96D5C88F5DC81BA97B /* Pods-FakeCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeCalls.release.xcconfig"; path = "Target Support Files/Pods-FakeCalls/Pods-FakeCalls.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46027F2C4A49B6B0F3796448 /* libPods-FakeCalls.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34849160971C0C448FDF677D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5957817588640AE302853A56 /* libPods-FakeCalls.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAADF53435E7221597BF9176 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C5B845924D409E18CDBA6A4 /* Pods-FakeCalls.debug.xcconfig */,
+				D3834D96D5C88F5DC81BA97B /* Pods-FakeCalls.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AFBD1B2126F74AA6007F68AB = {
 			isa = PBXGroup;
 			children = (
 				AFBD1B2C26F74AA6007F68AB /* FakeCalls */,
 				AFBD1B2B26F74AA6007F68AB /* Products */,
+				AAADF53435E7221597BF9176 /* Pods */,
+				34849160971C0C448FDF677D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +96,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFBD1B3E26F74AAA007F68AB /* Build configuration list for PBXNativeTarget "FakeCalls" */;
 			buildPhases = (
+				58C2DE438735439DE6958F79 /* [CP] Check Pods Manifest.lock */,
 				AFBD1B2626F74AA6007F68AB /* Sources */,
 				AFBD1B2726F74AA6007F68AB /* Frameworks */,
 				AFBD1B2826F74AA6007F68AB /* Resources */,
@@ -128,6 +154,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58C2DE438735439DE6958F79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FakeCalls-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFBD1B2626F74AA6007F68AB /* Sources */ = {
@@ -279,6 +330,7 @@
 		};
 		AFBD1B3F26F74AAA007F68AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C5B845924D409E18CDBA6A4 /* Pods-FakeCalls.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,6 +351,7 @@
 		};
 		AFBD1B4026F74AAA007F68AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3834D96D5C88F5DC81BA97B /* Pods-FakeCalls.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
