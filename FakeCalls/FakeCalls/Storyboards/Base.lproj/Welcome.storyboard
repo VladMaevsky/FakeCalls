@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FakeCalls" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="FakeCalls" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,10 +28,34 @@
                             <constraint firstItem="nUq-PK-5wS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oMr-JR-38i"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="WJJ-hW-Gwt" kind="show" identifier="toOnboarding" animates="NO" id="QuC-GE-fAz"/>
+                        <segue destination="7Zu-KI-gq2" kind="show" identifier="toMain" id="LwM-8D-qeD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52" y="56"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="IiB-hI-Sav">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="7Zu-KI-gq2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xXE-Lz-zux"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1xO-uG-QTL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="471"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="PTz-ug-V8o">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding" id="WJJ-hW-Gwt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0xh-yB-ohc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8m-zI-KK6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682" y="56"/>
         </scene>
     </scenes>
     <resources>

@@ -11,10 +11,14 @@
 		3AC8CCF726F7970D0045DB67 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8CCF626F7970D0045DB67 /* NotificationManager.swift */; };
 		3AC8CCF926F797440045DB67 /* LandscapeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8CCF826F797440045DB67 /* LandscapeManager.swift */; };
 		3AC8CCFB26F79A320045DB67 /* BackgroundImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8CCFA26F79A320045DB67 /* BackgroundImageViewController.swift */; };
+		3AC8CCFE26F79DF90045DB67 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC8CCFD26F79DF90045DB67 /* Onboarding.storyboard */; };
+		3AC8CD0026F79E160045DB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC8CCFF26F79E160045DB67 /* Main.storyboard */; };
+		3AC8CD0626F79EB50045DB67 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8CD0526F79EB50045DB67 /* MainViewController.swift */; };
+		3AC8CD0826F79EC40045DB67 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC8CD0726F79EC40045DB67 /* OnboardingViewController.swift */; };
 		46027F2C4A49B6B0F3796448 /* libPods-FakeCalls.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5957817588640AE302853A56 /* libPods-FakeCalls.a */; };
 		AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */; };
-		AFBD1B3226F74AA6007F68AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B3126F74AA6007F68AB /* ViewController.swift */; };
-		AFBD1B3526F74AA6007F68AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3326F74AA6007F68AB /* Main.storyboard */; };
+		AFBD1B3226F74AA6007F68AB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B3126F74AA6007F68AB /* WelcomeViewController.swift */; };
+		AFBD1B3526F74AA6007F68AB /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3326F74AA6007F68AB /* Welcome.storyboard */; };
 		AFBD1B3726F74AAA007F68AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3626F74AAA007F68AB /* Assets.xcassets */; };
 		AFBD1B3A26F74AAA007F68AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3826F74AAA007F68AB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -24,12 +28,16 @@
 		3AC8CCF626F7970D0045DB67 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		3AC8CCF826F797440045DB67 /* LandscapeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeManager.swift; sourceTree = "<group>"; };
 		3AC8CCFA26F79A320045DB67 /* BackgroundImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageViewController.swift; sourceTree = "<group>"; };
+		3AC8CCFD26F79DF90045DB67 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		3AC8CCFF26F79E160045DB67 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3AC8CD0526F79EB50045DB67 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3AC8CD0726F79EC40045DB67 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		5957817588640AE302853A56 /* libPods-FakeCalls.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FakeCalls.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C5B845924D409E18CDBA6A4 /* Pods-FakeCalls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeCalls.debug.xcconfig"; path = "Target Support Files/Pods-FakeCalls/Pods-FakeCalls.debug.xcconfig"; sourceTree = "<group>"; };
 		AFBD1B2A26F74AA6007F68AB /* FakeCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFBD1B3126F74AA6007F68AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AFBD1B3426F74AA6007F68AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFBD1B3126F74AA6007F68AB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AFBD1B3426F74AA6007F68AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Welcome.storyboard; sourceTree = "<group>"; };
 		AFBD1B3626F74AAA007F68AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBD1B3926F74AAA007F68AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFBD1B3B26F74AAA007F68AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +74,43 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		3AC8CCFC26F79DE40045DB67 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD1B3326F74AA6007F68AB /* Welcome.storyboard */,
+				3AC8CCFD26F79DF90045DB67 /* Onboarding.storyboard */,
+				3AC8CCFF26F79E160045DB67 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3AC8CD0126F79E760045DB67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFBD1B3126F74AA6007F68AB /* WelcomeViewController.swift */,
+				3AC8CCFA26F79A320045DB67 /* BackgroundImageViewController.swift */,
+				3AC8CD0426F79E990045DB67 /* Onboarding */,
+				3AC8CD0226F79E8A0045DB67 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3AC8CD0226F79E8A0045DB67 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3AC8CD0526F79EB50045DB67 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3AC8CD0426F79E990045DB67 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3AC8CD0726F79EC40045DB67 /* OnboardingViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		AAADF53435E7221597BF9176 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,10 +142,9 @@
 			isa = PBXGroup;
 			children = (
 				AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */,
-				AFBD1B3126F74AA6007F68AB /* ViewController.swift */,
-				3AC8CCFA26F79A320045DB67 /* BackgroundImageViewController.swift */,
+				3AC8CD0126F79E760045DB67 /* ViewControllers */,
 				3AC8CCF326F796A40045DB67 /* Managers */,
-				AFBD1B3326F74AA6007F68AB /* Main.storyboard */,
+				3AC8CCFC26F79DE40045DB67 /* Storyboards */,
 				AFBD1B3626F74AAA007F68AB /* Assets.xcassets */,
 				AFBD1B3826F74AAA007F68AB /* LaunchScreen.storyboard */,
 				AFBD1B3B26F74AAA007F68AB /* Info.plist */,
@@ -167,8 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFBD1B3A26F74AAA007F68AB /* LaunchScreen.storyboard in Resources */,
+				3AC8CD0026F79E160045DB67 /* Main.storyboard in Resources */,
 				AFBD1B3726F74AAA007F68AB /* Assets.xcassets in Resources */,
-				AFBD1B3526F74AA6007F68AB /* Main.storyboard in Resources */,
+				AFBD1B3526F74AA6007F68AB /* Welcome.storyboard in Resources */,
+				3AC8CCFE26F79DF90045DB67 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBD1B3226F74AA6007F68AB /* ViewController.swift in Sources */,
+				3AC8CD0626F79EB50045DB67 /* MainViewController.swift in Sources */,
+				AFBD1B3226F74AA6007F68AB /* WelcomeViewController.swift in Sources */,
 				AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */,
+				3AC8CD0826F79EC40045DB67 /* OnboardingViewController.swift in Sources */,
 				3AC8CCFB26F79A320045DB67 /* BackgroundImageViewController.swift in Sources */,
 				3AC8CCF726F7970D0045DB67 /* NotificationManager.swift in Sources */,
 				3AC8CCF526F796BA0045DB67 /* SubscriptionManager.swift in Sources */,
@@ -216,12 +264,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AFBD1B3326F74AA6007F68AB /* Main.storyboard */ = {
+		AFBD1B3326F74AA6007F68AB /* Welcome.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AFBD1B3426F74AA6007F68AB /* Base */,
 			);
-			name = Main.storyboard;
+			name = Welcome.storyboard;
 			sourceTree = "<group>";
 		};
 		AFBD1B3826F74AAA007F68AB /* LaunchScreen.storyboard */ = {

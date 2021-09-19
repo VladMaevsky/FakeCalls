@@ -3,7 +3,7 @@ import Foundation
 class LandscapeManager {
     static let shared = LandscapeManager()
     
-    var isFirstLaunch: Bool {
+    var isNotFirstLaunch: Bool {
         get {
             UserDefaults.standard.bool(forKey: #function)
         }
