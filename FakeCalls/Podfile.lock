@@ -1,0 +1,16 @@
+PODS:
+  - ApphudSDK (2.3.0)
+
+DEPENDENCIES:
+  - ApphudSDK
+
+SPEC REPOS:
+  trunk:
+    - ApphudSDK
+
+SPEC CHECKSUMS:
+  ApphudSDK: 2bc3e25d844ba63d96afc4d21531241f96017d6f
+
+PODFILE CHECKSUM: 0ffecdcfe73faa0421ccc6273c5fbb6f63fdf772
+
+COCOAPODS: 1.10.2

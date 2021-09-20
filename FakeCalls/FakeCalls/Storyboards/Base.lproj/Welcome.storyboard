@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="WelcomeViewController" customModule="FakeCalls" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logoLaunchscreen" translatesAutoresizingMaskIntoConstraints="NO" id="nUq-PK-5wS">
+                                <rect key="frame" x="146" y="367.5" width="122" height="161"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nUq-PK-5wS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qlo-zx-fxR"/>
+                            <constraint firstItem="nUq-PK-5wS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oMr-JR-38i"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="WJJ-hW-Gwt" kind="show" identifier="toOnboarding" animates="NO" id="QuC-GE-fAz"/>
+                        <segue destination="7Zu-KI-gq2" kind="show" identifier="toMain" id="LwM-8D-qeD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="56"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="IiB-hI-Sav">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="7Zu-KI-gq2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xXE-Lz-zux"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1xO-uG-QTL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="471"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="PTz-ug-V8o">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding" id="WJJ-hW-Gwt" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0xh-yB-ohc"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8m-zI-KK6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682" y="56"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_logoLaunchscreen" width="122" height="161"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
