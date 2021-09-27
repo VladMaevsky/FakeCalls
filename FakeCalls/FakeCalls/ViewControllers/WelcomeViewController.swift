@@ -25,7 +25,8 @@ private extension WelcomeViewController {
         
         DispatchQueue.main.async {
             if LandscapeManager.shared.isNotFirstLaunch {
-                self.toMain()
+//                self.toMain()
+                self.toOnboarding()
             } else {
                 self.toOnboarding()
             }
