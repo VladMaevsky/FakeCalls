@@ -10,6 +10,7 @@ import UIKit
 //MARK: - Links
 let termsURLString = "https://noreva-ou.tilda.ws/termsofuse"
 let privacyURLString = "https://noreva-ou.tilda.ws/privacypolicy"
+let helpURLString = "http://noreva-ou.tilda.ws"
 
 //MARK: - Helping contsants for attributed text
 let defaultFont = UIFont(name: "HKGrotesk-ExtraBold", size: 24)!

@@ -78,6 +78,7 @@ class OnboardingViewController: BackgroundImageViewController {
             }
         }
     }
+    
     //MARK: -  Methods
     func openUrl(urlStr: String!) {
         if let url = URL(string:urlStr), !url.absoluteString.isEmpty {

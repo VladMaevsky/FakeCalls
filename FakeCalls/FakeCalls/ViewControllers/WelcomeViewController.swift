@@ -24,12 +24,12 @@ private extension WelcomeViewController {
         // TODO: Add getting paywalls functionality
         
         DispatchQueue.main.async {
-            if LandscapeManager.shared.isNotFirstLaunch {
+            self.toMain()
+//            if LandscapeManager.shared.isNotFirstLaunch {
 //                self.toMain()
-                self.toOnboarding()
-            } else {
-                self.toOnboarding()
-            }
+//            } else {
+//                self.toOnboarding()
+//            }
         }
     }
     

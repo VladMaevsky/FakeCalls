@@ -106,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				AFBD1B3126F74AA6007F68AB /* WelcomeViewController.swift */,
-				AF4C56232702362400322283 /* SettingsViewController.swift */,
 				3AC8CCFA26F79A320045DB67 /* BackgroundImageViewController.swift */,
 				3AC8CD0426F79E990045DB67 /* Onboarding */,
 				3AC8CD0226F79E8A0045DB67 /* Main */,
@@ -117,6 +116,7 @@
 		3AC8CD0226F79E8A0045DB67 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				AF4C56232702362400322283 /* SettingsViewController.swift */,
 				3AC8CD0526F79EB50045DB67 /* MainViewController.swift */,
 			);
 			path = Main;
