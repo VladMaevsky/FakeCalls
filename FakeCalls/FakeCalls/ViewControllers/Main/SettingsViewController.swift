@@ -41,13 +41,13 @@ class SettingsViewController: UIViewController {
         }
     }
     
-//MARK: - @IBActions
+    //MARK: - @IBActions
     @IBAction func backButtonPressed(_ sender: UIButton) {
         self.dismiss(animated: false, completion: nil)
     }
 }
 
-// MARK: - UITableViewController
+// MARK: - UITableViewDataSource
 extension SettingsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return settingItemsStrings.count

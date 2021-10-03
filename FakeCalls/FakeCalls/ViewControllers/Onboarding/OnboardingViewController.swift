@@ -87,9 +87,9 @@ class OnboardingViewController: BackgroundImageViewController {
     }
     
     func setupFirstTextLabel() {
-        let attributedString1 = NSMutableAttributedString(string:"The most ", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
-        let attributedString2 = NSMutableAttributedString(string:"lifelike fake call\n", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
-        let attributedString3 = NSMutableAttributedString(string:"app is coming", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
+        let attributedString1 = NSMutableAttributedString(string: "The most ", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
+        let attributedString2 = NSMutableAttributedString(string: "lifelike fake call\n", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
+        let attributedString3 = NSMutableAttributedString(string: "app is coming", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
 
         attributedString1.append(attributedString2)
         attributedString1.append(attributedString3)
@@ -98,9 +98,9 @@ class OnboardingViewController: BackgroundImageViewController {
     }
     
     func setupSecondTextLabel() {
-        let attributedString1 = NSMutableAttributedString(string:"We ", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
-        let attributedString2 = NSMutableAttributedString(string:"always evaluate\n", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
-        let attributedString3 = NSMutableAttributedString(string:"your feedback", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
+        let attributedString1 = NSMutableAttributedString(string: "We ", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
+        let attributedString2 = NSMutableAttributedString(string: "always evaluate\n", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
+        let attributedString3 = NSMutableAttributedString(string: "your feedback", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
 
         attributedString1.append(attributedString2)
         attributedString1.append(attributedString3)
@@ -109,8 +109,8 @@ class OnboardingViewController: BackgroundImageViewController {
     }
     
     func setupThirdTextLabel() {
-        let attributedString1 = NSMutableAttributedString(string:"Simulate ", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
-        let attributedString2 = NSMutableAttributedString(string:"an incoming call", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
+        let attributedString1 = NSMutableAttributedString(string: "Simulate ", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
+        let attributedString2 = NSMutableAttributedString(string: "an incoming call", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
 
         attributedString1.append(attributedString2)
         
@@ -118,8 +118,8 @@ class OnboardingViewController: BackgroundImageViewController {
     }
     
     func setupFourthTextLabel() {
-        let attributedString1 = NSMutableAttributedString(string:"PRO ", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
-        let attributedString2 = NSMutableAttributedString(string:"Fake Call", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
+        let attributedString1 = NSMutableAttributedString(string: "PRO ", attributes:[.font: defaultFont, .foregroundColor: UIColor.black])
+        let attributedString2 = NSMutableAttributedString(string: "Fake Call", attributes:[.font: defaultFont, .foregroundColor: mainBlueColor])
 
         attributedString1.append(attributedString2)
         

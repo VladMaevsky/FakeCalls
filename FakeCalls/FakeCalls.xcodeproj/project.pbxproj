@@ -23,6 +23,7 @@
 		AF4C56202700AF0C00322283 /* HKGrotesk-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF4C561F2700AF0C00322283 /* HKGrotesk-ExtraBold.ttf */; };
 		AF4C56222700BF1000322283 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C56212700BF1000322283 /* Constants.swift */; };
 		AF4C56242702362500322283 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C56232702362400322283 /* SettingsViewController.swift */; };
+		AF4C56262706639200322283 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4C56252706639200322283 /* SecondaryButton.swift */; };
 		AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */; };
 		AFBD1B3226F74AA6007F68AB /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B3126F74AA6007F68AB /* WelcomeViewController.swift */; };
 		AFBD1B3526F74AA6007F68AB /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3326F74AA6007F68AB /* Welcome.storyboard */; };
@@ -30,6 +31,9 @@
 		AFBD1B3A26F74AAA007F68AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBD1B3826F74AAA007F68AB /* LaunchScreen.storyboard */; };
 		AFBD1B4526FA09B4007F68AB /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B4426FA09B4007F68AB /* PrimaryButton.swift */; };
 		AFBD1B4726FA13F1007F68AB /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBD1B4626FA13F1007F68AB /* UIView+extension.swift */; };
+		AFF32CEE2708AE4B00B0DD10 /* CallerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF32CED2708AE4B00B0DD10 /* CallerViewController.swift */; };
+		AFF32CF02708C01600B0DD10 /* RingtoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF32CEF2708C01600B0DD10 /* RingtoneViewController.swift */; };
+		AFF32CF22708C08F00B0DD10 /* CallerVoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF32CF12708C08F00B0DD10 /* CallerVoiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +52,9 @@
 		AF4C561B2700AD6A00322283 /* hk-grotesk.medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hk-grotesk.medium.ttf"; sourceTree = "<group>"; };
 		AF4C561D2700AD7400322283 /* hk-grotesk.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hk-grotesk.bold.ttf"; sourceTree = "<group>"; };
 		AF4C561F2700AF0C00322283 /* HKGrotesk-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-ExtraBold.ttf"; sourceTree = "<group>"; };
-		AF4C56212700BF1000322283 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ViewControllers/Onboarding/Constants.swift; sourceTree = "<group>"; };
+		AF4C56212700BF1000322283 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AF4C56232702362400322283 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AF4C56252706639200322283 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		AFBD1B2A26F74AA6007F68AB /* FakeCalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakeCalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFBD1B3126F74AA6007F68AB /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -57,8 +62,11 @@
 		AFBD1B3626F74AAA007F68AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBD1B3926F74AAA007F68AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFBD1B3B26F74AAA007F68AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFBD1B4426FA09B4007F68AB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrimaryButton.swift; path = Storyboards/PrimaryButton.swift; sourceTree = "<group>"; };
+		AFBD1B4426FA09B4007F68AB /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		AFBD1B4626FA13F1007F68AB /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		AFF32CED2708AE4B00B0DD10 /* CallerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerViewController.swift; sourceTree = "<group>"; };
+		AFF32CEF2708C01600B0DD10 /* RingtoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingtoneViewController.swift; sourceTree = "<group>"; };
+		AFF32CF12708C08F00B0DD10 /* CallerVoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerVoiceViewController.swift; sourceTree = "<group>"; };
 		D3834D96D5C88F5DC81BA97B /* Pods-FakeCalls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FakeCalls.release.xcconfig"; path = "Target Support Files/Pods-FakeCalls/Pods-FakeCalls.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +126,9 @@
 			children = (
 				AF4C56232702362400322283 /* SettingsViewController.swift */,
 				3AC8CD0526F79EB50045DB67 /* MainViewController.swift */,
+				AFF32CED2708AE4B00B0DD10 /* CallerViewController.swift */,
+				AFF32CEF2708C01600B0DD10 /* RingtoneViewController.swift */,
+				AFF32CF12708C08F00B0DD10 /* CallerVoiceViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -172,19 +183,28 @@
 		AFBD1B2C26F74AA6007F68AB /* FakeCalls */ = {
 			isa = PBXGroup;
 			children = (
-				AF4C56212700BF1000322283 /* Constants.swift */,
-				AFBD1B4426FA09B4007F68AB /* PrimaryButton.swift */,
-				AFBD1B4626FA13F1007F68AB /* UIView+extension.swift */,
 				AFBD1B2D26F74AA6007F68AB /* AppDelegate.swift */,
 				3AC8CD0126F79E760045DB67 /* ViewControllers */,
 				3AC8CCF326F796A40045DB67 /* Managers */,
 				3AC8CCFC26F79DE40045DB67 /* Storyboards */,
+				AFF32CF32709B4A600B0DD10 /* Helpers */,
 				AF4C56162700A6E900322283 /* Fonts */,
 				AFBD1B3626F74AAA007F68AB /* Assets.xcassets */,
 				AFBD1B3826F74AAA007F68AB /* LaunchScreen.storyboard */,
 				AFBD1B3B26F74AAA007F68AB /* Info.plist */,
 			);
 			path = FakeCalls;
+			sourceTree = "<group>";
+		};
+		AFF32CF32709B4A600B0DD10 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AF4C56212700BF1000322283 /* Constants.swift */,
+				AFBD1B4426FA09B4007F68AB /* PrimaryButton.swift */,
+				AF4C56252706639200322283 /* SecondaryButton.swift */,
+				AFBD1B4626FA13F1007F68AB /* UIView+extension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,11 +311,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFBD1B4526FA09B4007F68AB /* PrimaryButton.swift in Sources */,
+				AFF32CEE2708AE4B00B0DD10 /* CallerViewController.swift in Sources */,
+				AFF32CF22708C08F00B0DD10 /* CallerVoiceViewController.swift in Sources */,
+				AFF32CF02708C01600B0DD10 /* RingtoneViewController.swift in Sources */,
 				3AC8CD0626F79EB50045DB67 /* MainViewController.swift in Sources */,
 				AFBD1B4726FA13F1007F68AB /* UIView+extension.swift in Sources */,
 				AFBD1B3226F74AA6007F68AB /* WelcomeViewController.swift in Sources */,
 				AFBD1B2E26F74AA6007F68AB /* AppDelegate.swift in Sources */,
 				3AC8CD0826F79EC40045DB67 /* OnboardingViewController.swift in Sources */,
+				AF4C56262706639200322283 /* SecondaryButton.swift in Sources */,
 				AF4C56222700BF1000322283 /* Constants.swift in Sources */,
 				3AC8CCFB26F79A320045DB67 /* BackgroundImageViewController.swift in Sources */,
 				3AC8CCF726F7970D0045DB67 /* NotificationManager.swift in Sources */,
